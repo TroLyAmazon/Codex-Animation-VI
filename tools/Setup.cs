@@ -11,6 +11,7 @@ class Setup:Form {
  static readonly string Target=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"CodexAnimationVN");
  Label status=new Label(); Button install=new Button(),reinstall=new Button(),uninstall=new Button();
  public Setup(){
+  Icon=Icon.ExtractAssociatedIcon(Assembly.GetExecutingAssembly().Location);
   Text="Codex Animation — Cài đặt";Size=new Size(540,300);FormBorderStyle=FormBorderStyle.FixedDialog;MaximizeBox=false;StartPosition=FormStartPosition.CenterScreen;Font=new Font("Segoe UI",10);
   var title=new Label(){Text="Codex Animation",Font=new Font("Segoe UI",20,FontStyle.Bold),Location=new Point(24,20),AutoSize=true};Controls.Add(title);
   status.SetBounds(26,78,475,65);Controls.Add(status);
