@@ -1,7 +1,6 @@
 .build/
 dist/
 /build-exe.bat
-/video/
 .DS_Store
 __pycache__/
 
@@ -13,6 +12,8 @@ assets/codex-pink.png
 # Reference-video inspection is only used during local development.
 tools/extract-reference.swift
 *.mp4
+!/video/Start/codex_edited.mp4
+!/video/wallpaper/girl_only_dark_blue_wallpaper.mp4
 *.mov
 *.log
 *.tmp

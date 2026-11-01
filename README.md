@@ -69,12 +69,12 @@ video/
 └── wallpaper/girl_only_dark_blue_wallpaper.mp4
 ```
 
-Lần đầu nạp bộ mặc định phiên bản này, tiện ích áp dụng hai video trên. Các lần sau giữ lựa chọn đã lưu. Hai tệp không nằm trong kho công khai; cần chuẩn bị tài nguyên có quyền sử dụng phù hợp trước khi build.
+Lần đầu nạp bộ mặc định phiên bản này, tiện ích áp dụng hai video trên. Các lần sau giữ lựa chọn đã lưu. Hai video được đóng kèm trong kho mã, không cần tải riêng.
 
 ## Build từ mã nguồn
 
 1. Tải hoặc clone kho mã lên Windows x64.
-2. Chuẩn bị đủ hai video theo đường dẫn ở trên.
+2. Giữ nguyên thư mục `video` và hai video mặc định đi kèm.
 3. Trong thư mục gốc, chạy:
 
 ```powershell
@@ -87,7 +87,7 @@ Script dùng trình biên dịch .NET Framework của Windows, tải Node.js 22 
 dist/Codex Animation Setup.exe
 ```
 
-`.build/`, `dist/`, `video/` và `build-exe.bat` không được đưa vào Git. Chỉ gửi bộ cài `.exe` cho người dùng cuối; không cần gửi mã nguồn hoặc thư mục build.
+`.build/`, `dist/` và `build-exe.bat` không được đưa vào Git. Hai video mặc định trong `video/` được đưa vào kho. Chỉ gửi bộ cài `.exe` cho người dùng cuối; không cần gửi mã nguồn hoặc thư mục build.
 
 ## Cách tích hợp và xử lý lỗi
 
