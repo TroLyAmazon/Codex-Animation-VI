@@ -1,6 +1,12 @@
 # Codex Animation VI
 
-Tiện ích cá nhân cho **Codex / ChatGPT Desktop trên Windows x64**: phát hoạt ảnh khi mở ứng dụng và giữ ảnh nền, GIF hoặc video trong lúc làm việc. Giao diện và hướng dẫn bằng tiếng Việt.
+Thêm một chút cá tính cho góc làm việc của bạn với **Codex Animation VI**: hoạt ảnh chào đón khi mở Codex, ảnh nền yêu thích và video chuyển động ngay trong cửa sổ làm việc.
+
+Tiện ích dành cho **Codex / ChatGPT Desktop trên Windows x64**, có giao diện và hướng dẫn bằng tiếng Việt. Bạn có thể chọn GIF/video mở đầu, đổi nền và chỉnh lời chào ngay trong ứng dụng.
+
+**Nếu thấy dự án hữu ích, hãy tặng repo một ⭐ Star nhé!** Sự ủng hộ của bạn là động lực để TroLyAmazon tiếp tục cải thiện và cập nhật các phiên bản sau. Cảm ơn bạn đã dùng thử và chia sẻ dự án ❤️
+
+[⭐ Tặng một sao cho dự án](https://github.com/TroLyAmazon/Codex-Animation-VI) · [📥 Tải bản mới nhất](https://github.com/TroLyAmazon/Codex-Animation-VI/releases/latest) · [🐛 Báo lỗi / góp ý](https://github.com/TroLyAmazon/Codex-Animation-VI/issues)
 
 Đây là tiện ích không chính thức, không trực thuộc hoặc được OpenAI bảo trợ. Bản Windows và phần Việt hóa được phát triển từ [panding999/codex-startup-animation](https://github.com/panding999/codex-startup-animation).
 
